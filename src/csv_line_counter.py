@@ -1,10 +1,13 @@
 import argparse
 import pandas as pd
+import time
+
 
 def row_count(df_path):
     df = pd.read_csv(df_path)
     num_of_rows = len(df)
     print(f"A sorok száma ebben a dokumentumban: {num_of_rows}")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -14,6 +17,6 @@ if __name__ == '__main__':
         type=str,
         help='full path of the csv')
 
-args = parser.parse_args()
+    args = parser.parse_args()
 
-row_count(args.df_path)
+    row_count(args.df_path)
