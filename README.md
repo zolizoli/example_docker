@@ -2,4 +2,5 @@
 + `docker build -t linecounter .`
 
 ## Run
-+ `docker run -v /home/zoli/Downloads/data/:/code/data linecounter:latest`
+Átírandó rész:`/path/to/your/input.csv`
++ `docker run -v /path/to/your/input.csv:/code/data/input.csv linecounter:latest`

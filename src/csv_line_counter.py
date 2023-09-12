@@ -1,7 +1,5 @@
 import argparse
 import pandas as pd
-import time
-
 
 def row_count(df_path):
     df = pd.read_csv(df_path)
