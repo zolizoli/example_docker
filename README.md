@@ -3,11 +3,11 @@
 pip install pandas
 ```
 
-+ A data mappába tegyél magadnak egy
+**+ A data mappába tegyél magadnak egy
 vagy több csv-t, amivel majd teszteled
-a szkriptedet
+a szkriptedet**
 
-+ Először írd meg a line counter python scriptet, adj hozzá argparse-ot
+**+ Először írd meg a line counter python scriptet, adj hozzá argparse-ot**
 
 + Ha kész van az argparse-osított szkript,
 akkor futtasd ezt a parancsot
